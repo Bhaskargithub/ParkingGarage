@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Nammabank Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/nammabank.css">
+
+
+      <!--url("../img/BackgroundImage_Megamenu_top.png") no-repeat scroll center center #987f4b-->
+      <!--.black-bg {-->
+      <!--background: none repeat scroll 0 0 #f5821f;-->
+      <!--border-bottom: 1px solid #c9aa5f;-->
+      <!--}-->
+      <!--f5821f-->
+
+      <style type="text/css">
+
+          .container {
+              margin-top: 50px;
+          }
+
+          .table th, .table td {
+              text-align: left !important;
+          }
+
+          .panel-heading {
+              background-color: #ffd777 !important;
+              color: #000000 !important;
+              font-weight: bold;
+          }
+
+          .panel-primary > .panel-heading {
+              background-color: #ffd777;
+              border-color: #ffd777;
+              color: #000000 !important;
+              font-weight: bold;
+          }
+
+          .panel {
+              border-color: #ffd777;
+          }
+
+      </style>
+
+      <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" language="javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="home.html" class="logo"><img src="images/NammaBankNew.png" style="width:100%"/></a>
+            <!--logo end-->
+
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="login.html">Logout</a></li>
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+
+              	  <p class="centered"><a href="profile.html"><img src="images/basi.png" class="img-circle" width="80"></a></p>
+              	  <h5 class="centered">Bhaskar</h5>
+              	  	
+                  <li class="mt">
+                      <a class="active" href="home.html">
+                          <i class="fa fa-home"></i>
+                          <span style="font-size: 16px"><strong>Home</strong></span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="savingsDetails.html" >
+                          <i class="fa fa-save"></i>
+                          <span style="font-size: 16px"><strong>Savings Details</strong></span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="loanDetails.html" >
+                          <i class="fa fa-magnet"></i>
+                          <span style="font-size: 16px"><strong>Loan Details</strong></span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="investmentDetails.html" >
+                          <i class="fa fa-instagram"></i>
+                          <span style="font-size: 16px"><strong>Investment</strong></span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="transactionDetails.html" >
+                          <i class="fa fa-trello"></i>
+                          <span style="font-size: 16px"><strong>Bank Transactions</strong></span>
+                      </a>
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-10">
+
+                          <div class="panel panel-primary">
+                              <div class="panel-heading">User Details</div>
+                              <div class="panel-body">
+                                  <!--table-->
+                                  <table class="table table-condensed">
+                                      <thead>
+                                      <tr>
+                                          <th>#</th>
+                                          <th>Name</th>
+                                          <th>City</th>
+                                          <th>Email</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>Bhaskar</td>
+                                          <td>Mandya</td>
+                                          <td>bhaskarsp@gmail.com</td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                                  <!--end of table-->
+                              </div>
+                          </div>
+
+                          <div class="panel panel-primary">
+                              <div class="panel-heading">Savings Account Details</div>
+                              <div class="panel-body">
+                                  <!--table-->
+                                  <table class="table table-condensed">
+                                      <thead>
+                                      <tr>
+                                          <th>#</th>
+                                          <th>Name</th>
+                                          <th>City</th>
+                                          <th>Email</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>Bhaskar</td>
+                                          <td>Mandya</td>
+                                          <td>bhaskarsp@gmail.com</td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                                  <!--end of table-->
+                              </div>
+                          </div>
+
+                          <div class="panel panel-primary">
+                              <div class="panel-heading">Loan Details</div>
+                              <div class="panel-body">
+                                  <!--table-->
+                                  <table class="table table-condensed">
+                                      <thead>
+                                      <tr>
+                                          <th>#</th>
+                                          <th>Name</th>
+                                          <th>City</th>
+                                          <th>Email</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>Bhaskar</td>
+                                          <td>Mandya</td>
+                                          <td>bhaskarsp@gmail.com</td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                                  <!--end of table-->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </section>
+      </section>
+
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <!--<script src="assets/js/jquery.js"></script>-->
+    <!--<script src="assets/js/jquery-1.8.3.min.js"></script>-->
+    <!--<script src="assets/js/bootstrap.min.js"></script>-->
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+    
+    <!--<script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>-->
+    <!--<script type="text/javascript" src="assets/js/gritter-conf.js"></script>-->
+
+    <!--script for this page-->
+    <!--<script src="assets/js/sparkline-chart.js"></script>    -->
+	<!--<script src="assets/js/zabuto_calendar.js"></script>	-->
+	
+	<script type="text/javascript">
+        $(document).ready(function () {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Welcome to Dashgum!',
+            // (string | mandatory) the text inside the notification
+            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. Free version for <a href="http://blacktie.co" target="_blank" style="color:#ffd777">BlackTie.co</a>.',
+            // (string | optional) the image to display on the left
+            image: 'assets/img/ui-sam.jpg',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: true,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+
+        return false;
+        });
+	</script>
+	
+	<script type="application/javascript">
+        $(document).ready(function () {
+            $("#date-popover").popover({html: true, trigger: "manual"});
+            $("#date-popover").hide();
+            $("#date-popover").click(function (e) {
+                $(this).hide();
+            });
+
+            $("#my-calendar").zabuto_calendar({
+                action: function () {
+                    return myDateFunction(this.id, false);
+                },
+                action_nav: function () {
+                    return myNavFunction(this.id);
+                },
+                ajax: {
+                    url: "show_data.php?action=1",
+                    modal: true
+                },
+                legend: [
+                    {type: "text", label: "Special event", badge: "00"},
+                    {type: "block", label: "Regular event", }
+                ]
+            });
+        });
+
+
+        function myNavFunction(id) {
+            $("#date-popover").hide();
+            var nav = $("#" + id).data("navigation");
+            var to = $("#" + id).data("to");
+            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+        }
+    </script>
+  
+
+  </body>
+</html>

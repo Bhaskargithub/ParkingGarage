@@ -1,0 +1,14 @@
+[
+  {
+    "firstName": "Adarsh",
+    "lastName": "Gowda",
+    "phoneNumber": "+49176000000",
+    "eMail": "adarsh@gmail.com",
+    "address": {
+      "street": null,
+      "city": "Mandya",
+      "pinCode": 0,
+      "state": null
+    }
+  }
+]

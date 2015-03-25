@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Parking Garage</title>
+
+    <!--external css-->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+
+
+    <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+
+    <![endif]-->
+</head>
+
+<body>
+
+<section id="container" >
+    <!-- **********************************************************************************************************************************************************
+    TOP BAR CONTENT & NOTIFICATIONS
+    *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+        <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+        </div>
+        <!--logo start-->
+        <a href="parking.html" class="logo" style="margin-right: -70px;margin-left: 20px;"><img src="images/parking.png" style="width:30%; height: 50%"/></a>
+        <div style="font-size: 60px; font-weight:bold ;margin-left: -20px">Vence Parking Garage</div>
+    </header>
+    <!--header end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN SIDEBAR MENU
+    *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar"  class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu" id="nav-accordion">
+
+                <li class="sub-menu">
+                    <a href="parking.html" >
+                        <i class="fa fa-home"></i>
+                        <span style="font-size: 16px"><strong>Free Parking lots</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="assignparking.html" >
+                        <i class="fa fa-magnet"></i>
+                        <span style="font-size: 16px"><strong>Assign Parking lot</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="removeparking.html" >
+                        <i class="fa fa-instagram"></i>
+                        <span style="font-size: 16px"><strong>Exit Parking lot</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a class="active" href="createlevel.html" >
+                        <i class="fa fa-trello"></i>
+                        <span style="font-size: 16px"><strong>New Parking Level</strong></span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN CONTENT
+    *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-lg-11">
+                                <label class="sizer">Enter total space for parking in square meter:</label>
+                                <input class="sizer" style="padding-left: 10px; border-radius: 5px" type="text" id="total-space" placeholder="Example:2000"/>
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-lg-11">
+                                <label class="sizer">Allocate space for car parking in square meter:</label>
+                                <input class="sizer" style="padding-left: 10px; border-radius: 5px" type="text" id="car-space" placeholder="Example:1500"/>
+
+                                <p class="bg-info" id="car-space-value" style="padding-left: 10px; padding-top: 5px;padding-bottom: 5px; border-radius: 5px; margin-top: 10px; font-size: 20px;"> Note: Number of cars parkable are 10</p>
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-lg-11">
+                                <label class="sizer">Allocate space for Motor bike parking in square meter:</label>
+                                <input class="sizer" style="padding-left: 10px; border-radius: 5px" type="text" id="bike-space" placeholder="Example:500"/>
+
+                                <p class="bg-info" id="nike-space-value" style="padding-left: 10px; padding-top: 5px;padding-bottom: 5px; border-radius: 5px; margin-top: 10px; font-size: 20px;"> Note: Number of Motor bike parkable are 50</p>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-lg-offset-1 col-lg-10 sizer">
+                                <button type="button" class="btn btn-primary sizer" id="exit-parking-lot">Create Parking level</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,971 @@
+[
+    {
+        "Type": "Quaest update",
+        "Sender": "thomas.muller@quaest.net",
+        "Subject": "Message Subject which has some content Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26 16:30:29",
+        "TO": "thomas.david@quaest.net, madhukar.shankar@quaest.net, christopher.schorling@quaest.net",
+        "BCC": "madhukar.shankar@quaest.net",
+		"Status":"read"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"read"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"unread"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+	{
+        "Type": "Type3",
+        "Sender": "Maddy",
+        "Subject": "Subject sdsdfdfdfsddsds",
+        "Message": "dsdsfasdfasdfasdfasdfasd body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+	{
+        "Type": "Quaest update",
+        "Sender": "thomas.muller@ quaest.net",
+        "Subject": "Message Subject which has some content Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26 16:30:29",
+        "TO": "thomas.david@quaest.net, madhukar.shankar@quaest.net, christopher.schorling@quaest.net",
+        "BCC": "madhukar.shankar@quaest.net",
+		"Status":"read"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"read"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"unread"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+	{
+        "Type": "Type3",
+        "Sender": "Maddy",
+        "Subject": "Subject sdsdfdfdfsddsds",
+        "Message": "dsdsfasdfasdfasdfasdfasd body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+	{
+        "Type": "Quaest update",
+        "Sender": "thomas.muller@ quaest.net",
+        "Subject": "Message Subject which has some content Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26 16:30:29",
+        "TO": "thomas.david@quaest.net, madhukar.shankar@quaest.net, christopher.schorling@quaest.net",
+        "BCC": "madhukar.shankar@quaest.net",
+		"Status":"read"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"read"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "Christopher",
+        "Subject": "Subject4",
+        "Message": "Message4 body4",
+        "date": "2011/08/26",
+        "TO": "fddfdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type5",
+        "Sender": "Sender5",
+        "Subject": "Subject5",
+        "Message": "Message5",
+        "date": "2010/08/26",
+        "TO": "dffgdsf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type6",
+        "Sender": "Bhaskar",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2009/08/26",
+        "TO": "afdsgsdf",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type7",
+        "Sender": "XYZ",
+        "Subject": "Meeting",
+        "Message": "Message7",
+        "date": "2008/08/26",
+        "TO": "sdfdd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type8",
+        "Sender": "Bhaskar",
+        "Subject": "Meeting Cancelled",
+        "Message": "Message8",
+        "date": "2008/08/26",
+        "TO": "jhhsdgd",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type9",
+        "Sender": "Thomas",
+        "Subject": "Subject9",
+        "Message": "Message6 body6",
+        "date": "2012/08/26",
+        "TO": "sdfghsdfgh",
+        "BCC": "BCC field",
+		"Status":"read"
+    },
+    {
+        "Type": "Type10",
+        "Sender": "Maddy",
+        "Subject": "Subject12",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "dsfdsgh",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type11",
+        "Sender": "Maddy",
+        "Subject": "Subject6",
+        "Message": "Message6 body6",
+        "date": "2013/08/26",
+        "TO": "sdfghrth",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Thomas",
+        "Subject": "Gym Class",
+        "Message": "Work Hard",
+        "date": "2014/08/26",
+        "TO": "sdfhgsdfger",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type2",
+        "Sender": "David",
+        "Subject": "MBA",
+        "Message": "Exams",
+        "date": "2014/08/26",
+        "TO": "dfdgsdf",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type4",
+        "Sender": "ABC",
+        "Subject": "Bye",
+        "Message": "Message32",
+        "date": "2011/08/26",
+        "TO": "sdfvsdfvb",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type1",
+        "Sender": "Maddy",
+        "Subject": "Message Subject which has some content",
+        "Message": "Message body which has too much of content in it should be displayed in a single line and the rest of content should be truncated",
+        "date": "2014/08/26",
+        "TO": "thomas",
+        "BCC": "BCC field",
+		"Status":"unread"
+
+    },
+    {
+        "Type": "Type2",
+        "Sender": "Thomas",
+        "Subject": "Subject2",
+        "Message": "Message2 body2",
+        "date": "2013/08/26",
+        "TO": "Maddy",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+    {
+        "Type": "Type3",
+        "Sender": "David",
+        "Subject": "Subject3",
+        "Message": "Message3 body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    },
+	{
+        "Type": "Type3",
+        "Sender": "Maddy",
+        "Subject": "Subject sdsdfdfdfsddsds",
+        "Message": "dsdsfasdfasdfasdfasdfasd body3",
+        "date": "2012/08/26",
+        "TO": "xccxvc",
+        "BCC": "BCC field",
+		"Status":"unread"
+    }
+	
+]

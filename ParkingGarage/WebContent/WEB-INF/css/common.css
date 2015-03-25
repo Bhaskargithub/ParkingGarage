@@ -1,0 +1,37 @@
+ul.sidebar-menu li a.active i, ul.sidebar-menu li a.active {
+    color: black;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.table th, .table td {
+    text-align: left !important;
+}
+
+.panel-heading {
+    background-color: #ffd777 !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #ffd777;
+    border-color: #ffd777;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.panel {
+    border-color: #ffd777;
+}
+
+.sizer {
+    font-size: 30px;
+    font-weight: bold
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    opacity: 0.2 !important;
+}

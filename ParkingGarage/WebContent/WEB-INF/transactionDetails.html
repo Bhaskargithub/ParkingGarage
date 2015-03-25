@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Nammabank Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/nammabank.css">
+
+
+    <style type="text/css">
+
+        /*input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }*/
+
+        table.dataTable th.hider, td.hider {display: none;}
+
+        table.dataTable tr > td.mail_opener{
+            text-align: left !important;
+        }
+
+        table.dataTable tr > td, i {
+            cursor: pointer;
+        }
+
+        a.paginate_active {
+            color: #dddddd !important;
+        }
+
+        table.dataTable tbody tr, table.dataTable tbody td {
+            padding: 10px 15px;
+        }
+
+        table.dataTable thead th, table.dataTable thead td {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        #message_center {
+            border-bottom: 1px solid #dddddd;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            border: 1px solid #dddddd;
+        }
+
+        div {
+            font-size: 13px;
+        }
+
+        #message_center tr:hover a.delete {
+            display:block !important;
+            visibility:visible !important;
+        }
+
+        /*Pagination design start*/
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            background-color: #fff ;
+            border: 1px solid #ddd ;
+            margin-left: -1px;
+        }
+
+        .dataTables_wrapper .dataTables_paginate {
+            padding-bottom: 0.25em;
+            float:none;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background: #eee;
+            border-color: #ddd;
+            color: #333333 !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate > span > a.active,
+        .dataTables_wrapper .dataTables_paginate > span > a.active:hover,
+        .dataTables_wrapper .dataTables_paginate > span > a.active:focus {
+            background-color: #428bca;
+            border-color: #428bca;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+        .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+        .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+            border-color: #ddd;
+            cursor: not-allowed;
+            color: #eeeeee;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .previous {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .next {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .dataTables_wrapper .dataTables_filter input {
+            margin-left: 0.0em;
+            font-weight: normal !important;
+            padding: 2px 15px 2px 10px;
+        }
+
+        .dataTables_wrapper .dataTables_filter input {
+            width: 330px !important;
+            height: 32px !important;
+        }
+
+        .dataTables_wrapper .dataTables_info {
+            margin-left: 370px;
+            margin-top: -3.1em;
+        }
+
+        .dataTables_wrapper .dataTables_filter {
+            float: left;
+        }
+
+
+
+    </style>
+
+    <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+    <script type="text/javascript" language="javascript" src="js/Message-Center-Initializer.js"></script>
+
+    <![endif]-->
+</head>
+
+<body>
+
+<section id="container" >
+    <!-- **********************************************************************************************************************************************************
+    TOP BAR CONTENT & NOTIFICATIONS
+    *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+        <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+        </div>
+        <!--logo start-->
+        <a href="home.html" class="logo"><img src="images/NammaBankNew.png" style="width:100%"/></a>
+        <!--logo end-->
+
+        <div class="top-menu">
+            <ul class="nav pull-right top-menu">
+                <li><a class="logout" href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN SIDEBAR MENU
+    *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar"  class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu" id="nav-accordion">
+
+                <p class="centered"><a href="profile.html"><img src="images/basi.png" class="img-circle" width="80"></a></p>
+                <h5 class="centered">Bhaskar</h5>
+
+                <li class="mt">
+                    <a href="home.html">
+                        <i class="fa fa-home"></i>
+                        <span style="font-size: 16px"><strong>Home</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="savingsDetails.html" >
+                        <i class="fa fa-save"></i>
+                        <span style="font-size: 16px"><strong>Savings Details</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="loanDetails.html" >
+                        <i class="fa fa-magnet"></i>
+                        <span style="font-size: 16px"><strong>Loan Details</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="investmentDetails.html" >
+                        <i class="fa fa-instagram"></i>
+                        <span style="font-size: 16px"><strong>Investment</strong></span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a class="active" href="transactionDetails.html" >
+                        <i class="fa fa-trello"></i>
+                        <span style="font-size: 16px"><strong>Bank Transactions</strong></span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN CONTENT
+    *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+
+            <div class="container-fluid col-lg-12">
+                <br>
+                <br>
+
+                <div>
+                    <table id="message_center" class="display">
+                        <thead>
+                        <tr>
+                            <th>
+                                <h5><a><i class="fa fa-trash-o fa-lg delete-icon"
+                                          title='Delete all selected mails'
+                                          data-target="#deleteModal" data-toggle="modal"></i>
+                                </a>
+
+                                </h5>
+                                <input type="checkbox" id="select_all">
+                            </th>
+                            <th class="hider"><h5><strong>Id</strong></h5></th>
+                            <th style="text-align: left !important;"><h5><strong>From</strong></h5></th>
+                            <th style="text-align: left !important;"><h5><strong>Subject</strong></h5></th>
+                            <th class="sorted_date" style="text-align: left !important;"><h5><strong>Date</strong></h5></th>
+                            <th class="hider"><h5><strong>Message</strong></h5></th>
+                            <th class="hider"><h5><strong>To</strong></h5></th>
+                            <th class="hider"><h5><strong>CC</strong></h5></th>
+                            <th><h5><strong> </strong></h5></th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div class="row">
+                                    <div class="col-lg-10 col-lg-offset-1 text-center" id="mail_subject"><b>Subject</b></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-9 pull-left text-left">
+                                        <div id="mail_from"></div>
+                                        <div id="mail_to"></div>
+                                        <div id="mail_cc"></div>
+                                    </div>
+                                    <div class="col-lg-3 pull-right text-right" id="mail_date" style="font-size:14px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <p id="mail_body" style="font-size:14px;">Message Body</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="deleteModal" class="modal fade" aria-hidden="true" aria-labelledby="deleteModal" role="dialog" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" style="min-width: 0em" aria-hidden="true" data-dismiss="modal" type="button">&times;</button>
+                                <h5 id="myModalLabel" class="modal-title" style="font-weight: bold;">Delete mail</h5>
+                            </div>
+                            <div class="modal-body" style="padding-right: 15px; padding-left: 15px; font-size: 15px">
+                                <span id="from_address"></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-default" data-dismiss="modal" id="No" tabindex="0" type="button">No</button>
+                                <button class="btn btn-primary" tabindex="1" data-dismiss="modal" id="Yes" onclick="deleterows($('#from_address').text())" type="button">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+
+    <!--main content end-->
+    <!--footer start-->
+    <!--<footer class="site-footer">-->
+    <!--<div class="text-center">-->
+    <!--2014 - Alvarez.is-->
+    <!--<a href="index.html#" class="go-top">-->
+    <!--<i class="fa fa-angle-up"></i>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</footer>-->
+    <!--footer end-->
+</section>
+
+<!-- js placed at the end of the document so the pages load faster -->
+<!--<script src="assets/js/jquery.js"></script>-->
+<!--<script src="assets/js/jquery-1.8.3.min.js"></script>-->
+<!--<script src="assets/js/bootstrap.min.js"></script>-->
+<script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+<script src="assets/js/jquery.sparkline.js"></script>
+
+
+<!--common script for all pages-->
+<script src="assets/js/common-scripts.js"></script>
+
+<!--<script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>-->
+<!--<script type="text/javascript" src="assets/js/gritter-conf.js"></script>-->
+
+<!--script for this page-->
+<!--<script src="assets/js/sparkline-chart.js"></script>    -->
+<!--<script src="assets/js/zabuto_calendar.js"></script>	-->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Welcome to Dashgum!',
+            // (string | mandatory) the text inside the notification
+            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo. Free version for <a href="http://blacktie.co" target="_blank" style="color:#ffd777">BlackTie.co</a>.',
+            // (string | optional) the image to display on the left
+            image: 'assets/img/ui-sam.jpg',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: true,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+
+        return false;
+    });
+</script>
+
+<script type="application/javascript">
+    $(document).ready(function () {
+        $("#date-popover").popover({html: true, trigger: "manual"});
+        $("#date-popover").hide();
+        $("#date-popover").click(function (e) {
+            $(this).hide();
+        });
+
+        $("#my-calendar").zabuto_calendar({
+            action: function () {
+                return myDateFunction(this.id, false);
+            },
+            action_nav: function () {
+                return myNavFunction(this.id);
+            },
+            ajax: {
+                url: "show_data.php?action=1",
+                modal: true
+            },
+            legend: [
+                {type: "text", label: "Special event", badge: "00"},
+                {type: "block", label: "Regular event", }
+            ]
+        });
+    });
+
+
+    function myNavFunction(id) {
+        $("#date-popover").hide();
+        var nav = $("#" + id).data("navigation");
+        var to = $("#" + id).data("to");
+        console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+    }
+</script>
+
+
+</body>
+</html>
